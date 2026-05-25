@@ -16,15 +16,11 @@ El objetivo principal consiste en estudiar cómo distintos factores ambientales 
 
 ## Dataset utilizado
 
-Se utiliza el dataset **CORR-DATA**, desarrollado por el:
+El proyecto utiliza el dataset **CORR-DATA**, correspondiente a información experimental sobre corrosión en materiales metálicos expuestos a distintos entornos químicos y ambientales.
 
-- **NIST (National Institute of Standards and Technology)**
+El archivo CSV utilizado en el análisis se encuentra incluido dentro de este repositorio:
 
-Disponible públicamente en:
-
-- https://catalog.data.gov/dataset/corr-data-f703c
-
-El dataset contiene información experimental sobre corrosión en diferentes materiales metálicos expuestos a múltiples entornos químicos y ambientales.
+- [Descargar dataset CORR-DATA](./data/CORR-DATA_Database.csv)
 
 ---
 
@@ -60,7 +56,7 @@ Las demás columnas fueron descartadas debido a que contienen identificadores, r
 
 ## Tecnologías y librerías utilizadas
 
-El análisis fue desarrollado en Python utilizando principalmente:
+El análisis fue desarrollado en Python utilizando principalmente las siguientes librerías:
 
 ```python
 numpy
@@ -102,3 +98,53 @@ Luego de la selección inicial de variables, el dataset contiene:
 
 - **24.721 registros**
 - **10 variables**
+
+---
+
+## Cómo ejecutar el proyecto
+
+### 1. Clonar el repositorio
+
+```bash
+git clone https://github.com/irenerendon/Pre_Entrega_Machine_learning.git
+```
+
+---
+
+### 2. Acceder al directorio del proyecto
+
+```bash
+cd Pre_Entrega_Machine_learning
+```
+
+---
+
+### 3. Instalar dependencias
+
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn
+```
+
+---
+
+### 4. Ejecutar el notebook
+
+Abrir el archivo `.ipynb` utilizando:
+
+- Google Colab
+- Jupyter Notebook
+- Visual Studio Code
+
+---
+
+## Estructura del proyecto
+
+```plaintext
+Pre_Entrega_Machine_learning/
+│
+├── README.md
+├── data/
+│   └── CORR-DATA_Database.csv
+│
+└── Tp1/
+    └── notebook_machine_learning.ipynb
