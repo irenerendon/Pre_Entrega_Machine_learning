@@ -20,7 +20,7 @@ El proyecto utiliza el dataset **CORR-DATA**, correspondiente a información exp
 
 El archivo CSV utilizado en el análisis se encuentra incluido dentro de este repositorio:
 
-- [Descargar dataset CORR-DATA](./data/CORR-DATA_Database.csv)
+[Descargar dataset CORR-DATA](./CORR-DATA_Database.csv)
 
 ---
 
